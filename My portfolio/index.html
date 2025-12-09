@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darran Toh - Healthcare Management Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Interactive Elements -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Darran Toh</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <div class="hero-text fade-in-up">
+                <h1>Hi, I'm <br><span class="highlight">Darran Toh</span></h1>
+                <p>Dedicated <span class="typewriter-text">Healthcare Management Student</span> with hands-on experience
+                    in event coordination, website design, and customer service. Passionate about public health and
+                    improving healthcare service delivery.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up">
+                <div class="profile-card">
+                    <div class="profile-img">
+                        <img src="profile.jpg" alt="Darran Toh">
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i> darrantzh@gmail.com
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i> +60 18-767 5705
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i> Johor Bahru, Johor
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title scroll-animate">About Me</h2>
+            <div class="about-content">
+                <div class="about-image scroll-animate">
+                    <!-- Optional: Add another image or graphic here -->
+                </div>
+                <div class="about-text scroll-animate">
+                    <p>I am a motivated Diploma in Healthcare Management student at Sunway College Johor Bahru. My
+                        journey has equipped me with a strong foundation in healthcare administration, combined with
+                        practical skills in leadership and digital communication.</p>
+                    <br>
+                    <p>I thrive in dynamic environments where I can apply my organizational skills to solve problems and
+                        improve processes.</p>
+
+                    <h3 style="margin-top: 2rem; color: var(--secondary-color);">My Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <i class="fas fa-tasks skill-icon"></i>
+                            <h3>Problem Solving</h3>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-fill" data-width="90%"></div>
+                                </div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-laptop-code skill-icon"></i>
+                            <h3>Basic HTML Coding</h3>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-fill" data-width="75%"></div>
+                                </div>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-users skill-icon"></i>
+                            <h3>Leadership</h3>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-fill" data-width="85%"></div>
+                                </div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-comments skill-icon"></i>
+                            <h3>Communication</h3>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-fill" data-width="95%"></div>
+                                </div>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-microsoft skill-icon"></i>
+                            <h3>Microsoft Office/PowerPoint/Excel</h3>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-fill" data-width="88%"></div>
+                                </div>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-video skill-icon"></i>
+                            <h3>Website Designing</h3>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-fill" data-width="70%"></div>
+                                </div>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Experience Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item scroll-animate">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3 class="timeline-title">Diploma in Healthcare Management</h3>
+                        <p>Sunway College Johor Bahru</p>
+                        <p>Currently pursuing comprehensive studies in healthcare administration and management.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <h3 class="timeline-title">Event Coordinator</h3>
+                        <p>Student Council Projects</p>
+                        <p>Led coordination for major campus events including charity drives and health awareness
+                            campaigns.</p>
+                    </div>
+                </div>
+                <div class="timeline-item scroll-animate">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2017 - 2021</div>
+                        <h3 class="timeline-title">Secondary Education</h3>
+                        <p>SMK Ulu Tiram</p>
+                        <p>Sijil Pelajaran Malaysia (SPM)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Key Projects</h2>
+            <div class="project-grid">
+                <div class="project-card scroll-animate">
+                    <div class="project-header">
+                        <h3>Cancer-Free Living Event 2024</h3>
+                        <p style="margin-top: 0.5rem; color: var(--text-light);">Sunway College Johor Bahru</p>
+                    </div>
+                    <div class="project-body">
+                        <p style="color: var(--secondary-color); font-weight: 700; margin-bottom: 1rem;">Role: Vice
+                            President</p>
+                        <ul class="project-achievements">
+                            <li>Distributed tasks to each department efficiently</li>
+                            <li>Collaborated and liaised with National Cancer Society Malaysia</li>
+                            <li>Assisted all departments to achieve satisfactory event outcomes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card scroll-animate">
+                    <div class="project-header">
+                        <h3>MindSpark Event 2024</h3>
+                        <p style="margin-top: 0.5rem; color: var(--text-light);">Sunway College Johor Bahru</p>
+                    </div>
+                    <div class="project-body">
+                        <p style="color: var(--secondary-color); font-weight: 700; margin-bottom: 1rem;">Role: Vice
+                            President</p>
+                        <ul class="project-achievements">
+                            <li>Outlined event proposal objectives and anticipated outcomes</li>
+                            <li>Developed detailed activity schedules and ensured timely execution</li>
+                            <li>Invited and coordinated with various vendors for food and beverages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title scroll-animate">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form scroll-animate">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--white);">Send Me a Message</h3>
+                    <p style="color: var(--text-light); margin-bottom: 2rem;">This form will open your email client for
+                        a direct message.</p>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info-card scroll-animate">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--white);">Contact Information</h3>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--text-light);">Phone</h4>
+                            <p>+60 18-767 5705</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--text-light);">Email</h4>
+                            <p>darrantzh@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--text-light);">Location</h4>
+                            <p>Ulu Tiram, Johor Bahru, Johor</p>
+                        </div>
+                    </div>
+
+                    <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--secondary-color);">References</h4>
+                    <div class="info-item">
+                        <div>
+                            <p style="font-weight: 600; color: var(--white);">Dr. Hong</p>
+                            <p style="font-size: 0.9rem; color: var(--text-light);">Head of Science Programmes</p>
+                            <p style="font-size: 0.9rem;"></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div>
+                            <p style="font-weight: 600; color: var(--white);">Mrs. Sharifah Naziha </p>
+                            <p style="font-size: 0.9rem; color: var(--text-light);">Lecturer of Science Programmes</p>
+                            <p style="font-size: 0.9rem;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Darran Toh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
